@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(94,61,126);
+    background: linear-gradient(90deg, rgba(94,61,126,1) 0%,
+     rgba(18,9,23,1) 100%, rgba(0,212,255,1) 100%);
+  }
+  .header{
+     background-image:url(home.jpg);
+    
+    
+     height: 100vh;
+     width: 100vw;
+     background-size: cover;
+ 
+ 
+  }
+  .container{
+       position:absolute;
+      
+      
+
+  }
+  .navbar{
+     width:99vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 80px;
+    z-index: 2;
+    /* background-color: rgb(187, 29, 205); */
+    background: rgb(94,61,126);
+background: linear-gradient(90deg, rgba(94,61,126,1) 0%,
+ rgba(205,173,46,1) 0%, rgba(161,146,75,1) 0%,
+  rgba(22,34,175,0.938813025210084) 0%, rgba(208,206,37,1) 0%,
+ rgba(0,212,255,1) 0%, rgba(165,151,71,1) 0%, rgba(165,152,71,1) 99%);
+    color: white;
+    position: fixed;
+  }
+  .logo img{
+     color: #31F010;
+      height:70px ;
+      width: 12rem;
+      left: 1rem;
+      top:5rem;
+      margin-top: 5px;
+      margin-left: 10px;
+      border-radius: 5%;
+      border: 3px solid yellow;
+  }
+
+
+  
+  /* #manuitems{
+       list-style: none;
+      display: flex;
+      margin-right:10px;
+      
+  }
+  #manuitems li{
+    margin-left: 20px;
+  }
+  
+  #manuitems li a{
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    font-weight: 700;
+
+    
+  }
+  #manuitems li a:hover{
+    font: size 1.2rem; 
+    border-bottom: 2px solid black;
+  }
+
+  .menu-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+  } */
+  .col1{
+     font-size:1.5rem;
+     margin-top: 20%;
+     background: rgba(0, 0, 0, 0.43)
+  }
+  .col1 p{
+    color: rgb(225, 225, 236);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 2rem;
+  
+  }
+  .col1 h1{
+    color: #31F010;
+    margin-top: 20px;
+    margin-left: 20px;
+
+  }
+
+  .col1 h1{
+    overflow: hidden;
+    border-right: .15em solid rgba(243, 246, 247, 0.872);
+    white-space: nowrap;
+    animation: 
+    typing 4s steps(40, end) forwards;
+    font-size: 4rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
+  }
+
+
+
+
+#btn{
+   font-size: 1.5rem;
+   color: rgb(235, 242, 243);
+   background-color: rgb(45, 233, 12);
+   padding: 4px;
+   margin-top: 20px;
+   margin-left: 30%;
+   border: none;
+   border-radius: 30px;
+
+   
+ 
+}
+#btn:hover{
+  font-size: 1.6rem;
+  background-color: red;
+}
+/* card part  */
+
+.heading{
+  display: flex; 
+  justify-content: center;
+   color: goldenrod;
+   font-weight: 500;
+}
+.heading:hover{
+  color: red;
+  font-weight: 600;
+  border-bottom: 2px solid goldenrod;
+}
+.container1{
+  position:relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+justify-content: space-around;
+height: 80vh;
+width: 100vw;
+  background-color: #4e5a86;
+}
+.card{
+  box-shadow: 5px 10px #888888;
+   height: 62vh;
+   
+}
+.card a img{
+  height: 300px;
+  width: 270px;
+ object-fit: fill;
+}
+.card:hover{
+  box-shadow: 5px 10px #d7a9a9;
+  height: 63vh;
+}
+.card p{
+ margin-left: 4px;
+ color: aliceblue;
+}
+.explore a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.explore a:hover{
+  text-decoration: none;
+  color: rgb(190, 17, 17);
+  font-weight: 600;
+}
+.container2{
+  position: absolute;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: 45vh;
+  width: 100vw;
+  background-color: #6b6d75;
+}
+#profile img{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      margin-top: 5px;
+      margin-left: 40%;
+
+}
+#about{
+   color: white;
+   font-weight:700;
+   margin-top: 20px;
+   font-family: cursive;
+   font-size: 1.2rem;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elements{
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+.elements li {
+  text-decoration: none;
+ list-style: none;
+}
+
+.margin{
+  margin: 10px;
+  font-size: 1.8rem;
+  
+}
+.margin a i{
+  color: black;
+  border-radius: 50%;
+}
+#insta a i:hover{
+  color: red;
+  font-size: 2rem;
+  opacity: .8;
+  
+}
+#linkedin a i:hover{
+  color: rgb(23, 23, 156);
+  font-size: 2rem;
+  opacity: .8;
+ 
+}
+#facebook a i:hover{
+  color: rgb(38, 34, 156);
+  font-size: 2rem;
+  opacity: .8;
+  
+}
+  /*  Now for the responsive  */
+
+
+
+/* media queri */
+@media only screen and (max-width: 800px) {
+    nav ul {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background: #333;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    nav ul li {
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li a {
+      color: #fff;
+    }
+    
+
+    
+  }
+
+  
+
+/*  for toggle menu */
+
+.menu-toggle{
+  display: flex;
+
+}
+#menu-items{
+  display: flex;
+  
+}
+#menu-items li{
+  
+  margin-right: 1rem;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+}
+#menu-items li a{
+  text-decoration: none;
+}
+#menu-items li :hover{
+  color: red;
+  border-bottom: black;
+}
+
+/*  for the toggle button */
+
+
+@media screen and (max-width: 800px) {
+  #toggle-button {
+    display:flex; /* Show the toggle button on small screens */
+    height: 30px;
+    width: 30px;
+    margin-right: 1.2rem;
+
+  }
+  
+  #menu-items {
+    display: none; /* Hide the menu items by default on small screens */
+  }
+  
+  #menu-items.show {
+    display: block; /* Show the menu items when the class "show" is added */
+  }
+}
+
+
+
+
+/*   from chat gpt tom make it responsive  */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .header {
+    height: 100vh;
+  }
+
+  .col1 {
+    font-size: 1rem;
+  }
+
+  .col1 h1 {
+    font-size: 2rem;
+  }
+
+  #btn {
+    font-size: 1rem;
+  }
+
+  .container1 {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 100%;
+    margin: 20px 5px;
+  }
+
+  #profile img {
+    height: 100px;
+    width: 100px;
+  }
+
+
+  .container1 {
+    height: auto;
+  }
+  
+  .card {
+    box-shadow: 5px 10px #888888;
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .card a img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card p {
+    margin-left: 4px;
+    color: aliceblue;
+  }
+  
+  .explore {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .container2 {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  }
+  
+  #profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+  
+  #about {
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: cursive;
+    text-align: center;
+  }
+  
+  .container3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .elements {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .margin {
+    margin: 5px;
+    font-size: 1.2rem;
+  }
+
+  #toggle-button{ 
+    margin-right: 13rem;
+  }
+}
